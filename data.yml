@@ -1,0 +1,30 @@
+#字典
+#name: "hello_Yun"
+#age: 18
+
+#列表
+#  - "1"
+#  - "2"
+#  - "3"
+
+#字典嵌套字典
+#name: "wangmingzhi"
+#what:
+#  who: "Yun"
+#  feel: "Love"
+
+#字典嵌套列表
+#name: "whos name"
+#people:
+#  - "1"
+#  - "2"
+
+#列表嵌套列表
+
+#列表嵌套字典
+- "1"
+- "2"
+- "3"
+-
+  name: 'a'
+  age: '12'

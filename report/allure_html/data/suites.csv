@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 24 17:10:42 CST 2020","Wed Jun 24 17:10:42 CST 2020","0","scripts","test_login","TestCase","","","test_case01[7]",""
+"failed","Wed Jun 24 17:10:42 CST 2020","Wed Jun 24 17:10:42 CST 2020","1","scripts","test_login","TestCase","","","test_case01[5]",""
+"passed","Wed Jun 24 17:10:42 CST 2020","Wed Jun 24 17:10:42 CST 2020","1","scripts","test_login","TestCase","","","test_case02",""
