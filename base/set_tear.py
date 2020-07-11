@@ -1,5 +1,4 @@
 from appium import webdriver
-from selenium.webdriver.common.by import By
 
 
 class set_tear:

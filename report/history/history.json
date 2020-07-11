@@ -1,0 +1,122 @@
+{
+  "5d724b62f4603463527bc958d81cfc62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16db162630ac2de1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidElementStateException: Message: Cannot set the element to 'wlan'. Did you interact with the correct element?",
+      "time" : {
+        "start" : 1593142679934,
+        "stop" : 1593142684852,
+        "duration" : 4918
+      }
+    } ]
+  },
+  "7382f9701610554b5f33fcff5044d9b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d38e6b1df125ec7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidElementStateException: Message: Cannot set the element to 'a'. Did you interact with the correct element?",
+      "time" : {
+        "start" : 1593144680886,
+        "stop" : 1593144684273,
+        "duration" : 3387
+      }
+    } ]
+  },
+  "4e203d018fbb9d16bc3466b72a7ca1a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6090fed81c8131b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidElementStateException: Message: Cannot set the element to 'w'. Did you interact with the correct element?",
+      "time" : {
+        "start" : 1593144671354,
+        "stop" : 1593144676394,
+        "duration" : 5040
+      }
+    } ]
+  },
+  "9b3e3ffe4cd958c4c104bf54b6b96fce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26ae76a75a71bb76",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidElementStateException: Message: Cannot set the element to 'n'. Did you interact with the correct element?",
+      "time" : {
+        "start" : 1593144684419,
+        "stop" : 1593144687669,
+        "duration" : 3250
+      }
+    } ]
+  },
+  "b5293313b7664e9368cbf142da1195c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e6e392cc37b9426",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidElementStateException: Message: Cannot set the element to 'wlan'. Did you interact with the correct element?",
+      "time" : {
+        "start" : 1593144784057,
+        "stop" : 1593144788833,
+        "duration" : 4776
+      }
+    } ]
+  },
+  "91798d92d6291bd845f197d3b044fa7b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c5f6e71597b293e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidElementStateException: Message: Cannot set the element to 'l'. Did you interact with the correct element?",
+      "time" : {
+        "start" : 1593144676670,
+        "stop" : 1593144680835,
+        "duration" : 4165
+      }
+    } ]
+  }
+}

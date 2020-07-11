@@ -5,11 +5,11 @@ from selenium.webdriver.common.by import By
 sys.path.append(os.getcwd())
 from base.set_tear import set_tear
 from page.search_page import SearchPage
-from base.base_yml import yml_data_with_file
+from base.base_yml import read_yml_data_with_file
 
 
 def data_with_key(key):
-    return yml_data_with_file('search_data')[key]
+    return read_yml_data_with_file('search_data')[key]
 
 
 class TestSearch():

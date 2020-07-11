@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Jun 26 12:13:04 CST 2020","Fri Jun 26 12:13:08 CST 2020","4776","scripts","test_search","TestSearch","","","test_search[wlan]",""
+"broken","Fri Jun 26 12:11:11 CST 2020","Fri Jun 26 12:11:16 CST 2020","5040","scripts","test_search","TestSearch","","","test_search[w]",""
+"broken","Fri Jun 26 12:11:16 CST 2020","Fri Jun 26 12:11:20 CST 2020","4165","scripts","test_search","TestSearch","","","test_search[l]",""
+"broken","Fri Jun 26 12:11:20 CST 2020","Fri Jun 26 12:11:24 CST 2020","3387","scripts","test_search","TestSearch","","","test_search[a]",""
+"broken","Fri Jun 26 11:37:59 CST 2020","Fri Jun 26 11:38:04 CST 2020","4918","scripts","test_search","TestSearch","","","test_search",""
+"broken","Fri Jun 26 12:11:24 CST 2020","Fri Jun 26 12:11:27 CST 2020","3250","scripts","test_search","TestSearch","","","test_search[n]",""
