@@ -21,4 +21,8 @@ class Base_Action:
     def get_text(self, loc):
         return self.find_element(loc).text
 
+    def swipe(self, start_x, start_y, end_x, end_y, duration=None):
+        return self.driver.swipe(start_x, start_y, end_x, end_y, duration)
+
+
 
