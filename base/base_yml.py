@@ -1,4 +1,4 @@
-import os
+import csv
 import yaml
 
 
@@ -16,9 +16,25 @@ def write_yml_to_file(py_object, yaml_file):
         yaml.dump(py_object, f, Dumper=yaml.RoundTripDumper)
 
 
+def write_data_to_csv(filename, data, rowname):
+    with open("../data/"+filename+".csv", 'w', encoding='utf-8', newline='') as f:
+        csv_writer = csv.writer(f)
+        csv_writer.writerow(rowname)
+        for i in data:
+            csv_writer.writerow(i)
+
+
+def read_data_from_csv(filename):
+    with open("../data/"+filename+".csv", 'r')as f:
+        f_csv = csv.reader(f)
+        data1 = [i for i in f_csv]
+        del data1[0]
+    return data1
+
+
 if __name__ == '__main__':
-    # from scripts.test_tpshop import fake_data
-    # write_yml_to_file(fake_data(10), 'generate')
-    print(read_yml_data_with_file('generate'))
+    data = read_yml_data_with_file('generate')
+    write_data_to_csv('test', data, ['username', 'password'])
+    print(read_data_from_csv('test'))
 
 

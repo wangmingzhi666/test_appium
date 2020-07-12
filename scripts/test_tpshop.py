@@ -1,3 +1,4 @@
+# coding=utf-8
 import os, sys
 sys.path.append(os.getcwd())
 from base.set_tear import set_tear
@@ -13,7 +14,7 @@ class TestTPshop():
         self.tpshop_page.click_mine()
         self.tpshop_page.click_intologin()
 
-    @pytest.mark.parametrize('username, password', fake_data(10))
+    @pytest.mark.parametrize('username, password', fake_data(3))
     def test_login(self, username, password):
         write_yml_to_file([[username, password]], 'generate')
         self.tpshop_page.click_login(username, password)

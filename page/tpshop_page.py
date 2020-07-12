@@ -1,3 +1,4 @@
+# coding=utf-8
 from selenium.webdriver.common.by import By
 from base.base_action import Base_Action
 
@@ -21,7 +22,8 @@ class TPshop_page(Base_Action):
     username = Xpath_loc('resource-id', 'com.tpshop.malls:id/mobile_et')
     password = Xpath_loc('resource-id', 'com.tpshop.malls:id/pwd_et')
     xieyi = Xpath_loc('resource-id', 'com.tpshop.malls:id/agree_btn')
-    commit = Xpath_loc('text', '登录')
+    commit = Xpath_loc('resource-id', 'com.tpshop.malls:id/login_tv')
+    Toast = Xpath_loc('class', 'android.widget.Toast')
 
 
     def click_mine(self):
@@ -35,6 +37,13 @@ class TPshop_page(Base_Action):
         self.input(self.password, password_text)
         self.click(self.xieyi)
         self.click(self.commit)
+        try:
+            toast_element = self.get_text(self.Toast)
+            print(toast_element)
+            self.click(self.xieyi)
+        except:
+            pass
+
 
 
 

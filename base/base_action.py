@@ -1,3 +1,8 @@
+# coding=utf-8
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.wait import POLL_FREQUENCY
+
+
 class Base_Action:
     def __init__(self, driver):
         self.driver = driver
@@ -15,3 +20,5 @@ class Base_Action:
 
     def get_text(self, loc):
         return self.find_element(loc).text
+
+
