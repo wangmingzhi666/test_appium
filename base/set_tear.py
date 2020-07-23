@@ -10,6 +10,9 @@ class set_tear:
         desire_caps['appPackage'] = appPackage
         desire_caps['appActivity'] = appActivity
         desire_caps['noReset'] = True
+        desire_caps['chromeOptions']= {
+            'androidProcess': 'com.tencent.mm:appbrand0'
+        }
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desire_caps)
         return self.driver
 
