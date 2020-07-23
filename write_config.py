@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     import pymysql
 
-    db = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='66231533', db='按时', charset='utf8')
+    db = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='6*******', db='按时', charset='utf8')
     cursor = db.cursor()
     cursor.execute('select * from student')
     data = cursor.fetchall()
