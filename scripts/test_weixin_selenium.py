@@ -3,7 +3,8 @@ import json
 from selenium import webdriver
 import time
 
-
+# 注：没用到PO模式
+# 定义pytest的WeChat网页测试类
 class TestWechat():
     def setup(self):
         self.driver = webdriver.Chrome()
